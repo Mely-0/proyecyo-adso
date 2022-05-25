@@ -1,0 +1,151 @@
+.IMAGENES {
+    height: 250px;
+    width: 250px;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#texto {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 200px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#vogue {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#farandula {
+    text-decoration: none;
+    color: black;
+}
+
+#revistatu {
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    width: 280px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+}
+
+.informacion {
+    display: block;
+    padding: 30px;
+    width: 200px;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background: white;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #131111;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.content-foo h4 {
+    color: #050505;
+    border-bottom: 3px solid #060406;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: #000000;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #030303;
+}
+
+body {
+    font-family: 'Times New Roman'
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info1 {
+    display: block;
+    padding: 30px;
+}
+
+.img-1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.cont-pro {
+    display: flex;
+    margin-left: 0%;
+}
